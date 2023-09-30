@@ -1,5 +1,13 @@
 
 
+# 部署教学视频
+
+```
+https://www.bilibili.com/video/BV1MN4y1f7bL/
+```
+
+
+
 # 作品展示
 
 ![image-20230930234729520](./work.show/01.png)
