@@ -1,0 +1,57 @@
+
+.qahiri {
+    font-family: 'Qahiri', sans-serif;
+}
+
+.el-message-box{
+    --el-bg-color:#292742;
+    --el-messagebox-title-color:#606266 !important;
+    --el-messagebox-content-color:#9fa2a7 !important;
+
+}
+.el-message-box__btns .el-button{
+    --el-button-bg-color: #5965F3 !important;
+    --el-button-hover-bg-color:#444db0 !important;
+}
+
+.el-drawer{
+    --el-drawer-bg-color:#292742 !important;
+}
+
+.el-table{
+    --el-table-bg-color:#1c1b2b!important;
+    --el-table-text-color:white!important;
+    --el-table-header-bg-color:teal!important;
+}
+
+.el-dialog{
+    --el-dialog-bg-color:teal!important;;
+}
+
+.el-dialog__body{
+    padding: 0!important;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-button {
+    display: none;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(144, 147, 153, 0.3);
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-corner {
+    display: none;
+}
+
+::-webkit-resizer {
+    display: none;
+}
+

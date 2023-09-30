@@ -1,0 +1,3 @@
+JWT :
+  ExpiresAt : 1 # 有效时长(小时)
+  SecretKey : vgoadmintemplatedsf232kjhlk # 密钥
