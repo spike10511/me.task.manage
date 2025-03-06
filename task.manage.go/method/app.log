@@ -1,0 +1,101 @@
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /avatars/*filepath        --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /avatars/*filepath        --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] GET    /                         --> learning_path/controller.UseAppRouter.func1 (4 handlers)
+[GIN-debug] POST   /user/register            --> learning_path/controller._register (4 handlers)
+[GIN-debug] POST   /user/login               --> learning_path/controller._login (4 handlers)
+[GIN-debug] PUT    /user/auth/setPass        --> learning_path/controller._setPass (5 handlers)
+[GIN-debug] GET    /user/auth/getUserInfo    --> learning_path/controller._getUserInfo (5 handlers)
+[GIN-debug] PUT    /user/auth/setUserInfo    --> learning_path/controller._serUserInfo (5 handlers)
+[GIN-debug] PUT    /user/auth/setAvatar      --> learning_path/controller._setUserAvatar (5 handlers)
+[GIN-debug] GET    /user/root/findAllUser    --> learning_path/controller._findAllUser (6 handlers)
+[GIN-debug] POST   /user/root/disUser        --> learning_path/controller._disUser (6 handlers)
+[GIN-debug] POST   /user/root/openUser       --> learning_path/controller._openUser (6 handlers)
+[GIN-debug] POST   /user/SSS/addRootAccount  --> learning_path/controller._addRootAccount (6 handlers)
+[GIN-debug] DELETE /user/SSS/delRootAccount  --> learning_path/controller._delRootAccount (6 handlers)
+[GIN-debug] PUT    /user/SSS/resetUserPass/:user_id --> learning_path/controller._resetUserPass (6 handlers)
+[GIN-debug] GET    /role/auth/takeCRole      --> learning_path/controller._FindCurrentRole (5 handlers)
+[GIN-debug] GET    /role/auth/takeCMenu      --> learning_path/controller._FindCurrentMenu (5 handlers)
+[GIN-debug] POST   /role/root/addRole        --> learning_path/controller._addRole (6 handlers)
+[GIN-debug] DELETE /role/root/delRole        --> learning_path/controller._delRole (6 handlers)
+[GIN-debug] PUT    /role/root/putRole        --> learning_path/controller._putRole (6 handlers)
+[GIN-debug] GET    /role/root/takeRole/:role_id --> learning_path/controller._takeRole (6 handlers)
+[GIN-debug] GET    /role/root/findAllRole    --> learning_path/controller._findAllRole (6 handlers)
+[GIN-debug] POST   /role/root/userAddRole    --> learning_path/controller._userAddRole (6 handlers)
+[GIN-debug] POST   /role/root/delUserRole    --> learning_path/controller._delUserRole (6 handlers)
+[GIN-debug] POST   /role/root/findUserRole   --> learning_path/controller._findUserRole (6 handlers)
+[GIN-debug] POST   /menu/root/add            --> learning_path/controller._addMenu (6 handlers)
+[GIN-debug] DELETE /menu/root/del/:menu_id   --> learning_path/controller._delMenu (6 handlers)
+[GIN-debug] PUT    /menu/root/put            --> learning_path/controller._putMenu (6 handlers)
+[GIN-debug] GET    /menu/root/take/:menu_id  --> learning_path/controller._takeMenu (6 handlers)
+[GIN-debug] GET    /menu/root/findAll        --> learning_path/controller._findAllMenu (6 handlers)
+[GIN-debug] POST   /menu/root/roleAddMenu    --> learning_path/controller._roleAddMenu (6 handlers)
+[GIN-debug] POST   /menu/root/delRoleMenu    --> learning_path/controller._delRoleMenu (6 handlers)
+[GIN-debug] GET    /menu/root/findRoleMenus/:role_id --> learning_path/controller._findRoleMenus (6 handlers)
+[GIN-debug] GET    /task/auth/getCurrentTask --> learning_path/controller._getCurrentTask (5 handlers)
+[GIN-debug] PUT    /task/auth/putTaskStatus/:task_id --> learning_path/controller._submitTask (5 handlers)
+[GIN-debug] GET    /task/auth/getUserAllTask --> learning_path/controller._getAllUserTask (5 handlers)
+[GIN-debug] POST   /task/root/addTaskCategory --> learning_path/controller._addTaskCategory (6 handlers)
+[GIN-debug] DELETE /task/root/delTaskCategory/:cate_id --> learning_path/controller._delTaskcategory (6 handlers)
+[GIN-debug] PUT    /task/root/putTaskCategory --> learning_path/controller._putTaskCategory (6 handlers)
+[GIN-debug] GET    /task/root/takeTaskCategory/:cate_id --> learning_path/controller._takeTaskCategory (6 handlers)
+[GIN-debug] GET    /task/root/findTaskCategory --> learning_path/controller._findTaskCategory (6 handlers)
+[GIN-debug] POST   /task/root/addTask        --> learning_path/controller._addTask (6 handlers)
+[GIN-debug] PUT    /task/root/putTask        --> learning_path/controller._putTask (6 handlers)
+[GIN-debug] DELETE /task/root/delTask/:task_id --> learning_path/controller._delTask (6 handlers)
+[GIN-debug] POST   /task/root/findTasks      --> learning_path/controller._findTasks (6 handlers)
+[GIN-debug] GET    /task/root/findAllTask    --> learning_path/controller._findAllTasks (6 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :9093
+[GIN] 2025/03/04 - 18:19:22 | 401 |       254.6µs |       127.0.0.1 | GET      "/user/auth/getUserInfo"
+[GIN] 2025/03/04 - 18:19:26 | 200 |    303.0416ms |       127.0.0.1 | POST     "/user/login"
+[GIN] 2025/03/04 - 18:19:26 | 404 |            0s |       127.0.0.1 | GET      "/9/c2/f0ee8a3c7c9638a54940382568c9dpng.png"
+[GIN] 2025/03/04 - 18:19:26 | 200 |     11.3028ms |       127.0.0.1 | GET      "/user/auth/getUserInfo"
+[GIN] 2025/03/04 - 18:19:26 | 200 |     39.7309ms |       127.0.0.1 | GET      "/task/auth/getCurrentTask"
+[GIN] 2025/03/04 - 18:19:32 | 200 |      11.366ms |       127.0.0.1 | PUT      "/task/auth/putTaskStatus/212"
+[GIN] 2025/03/04 - 18:19:32 | 200 |      5.9311ms |       127.0.0.1 | GET      "/task/auth/getCurrentTask"
+[GIN] 2025/03/04 - 18:19:37 | 200 |      8.0385ms |       127.0.0.1 | PUT      "/task/auth/putTaskStatus/212"
+[GIN] 2025/03/04 - 18:19:37 | 200 |      3.9243ms |       127.0.0.1 | GET      "/task/auth/getCurrentTask"
+[GIN] 2025/03/04 - 18:47:37 | 200 |      5.9288ms |       127.0.0.1 | GET      "/user/root/findAllUser"
+[GIN] 2025/03/04 - 18:47:37 | 200 |      7.1243ms |       127.0.0.1 | GET      "/task/root/findTaskCategory"
+[GIN] 2025/03/04 - 18:47:40 | 200 |      6.8289ms |       127.0.0.1 | GET      "/task/auth/getCurrentTask"
+[GIN] 2025/03/04 - 18:48:40 | 200 |      9.9373ms |       127.0.0.1 | GET      "/task/auth/getUserAllTask"
+[GIN] 2025/03/04 - 18:49:44 | 200 |    491.9309ms |       127.0.0.1 | POST     "/user/login"
+[GIN] 2025/03/04 - 18:49:45 | 200 |      4.5886ms |       127.0.0.1 | GET      "/user/auth/getUserInfo"
+[GIN] 2025/03/04 - 18:49:45 | 200 |      8.6751ms |       127.0.0.1 | GET      "/task/auth/getCurrentTask"
+[GIN] 2025/03/04 - 18:50:05 | 200 |    482.1932ms |       127.0.0.1 | POST     "/user/login"
+[GIN] 2025/03/04 - 18:50:05 | 200 |       7.019ms |       127.0.0.1 | GET      "/task/auth/getCurrentTask"
+[GIN] 2025/03/04 - 18:50:05 | 200 |      5.1531ms |       127.0.0.1 | GET      "/user/auth/getUserInfo"
+[GIN] 2025/03/04 - 18:50:07 | 200 |      3.7708ms |       127.0.0.1 | GET      "/task/root/findTaskCategory"
+[GIN] 2025/03/04 - 18:50:07 | 200 |      2.2987ms |       127.0.0.1 | GET      "/user/root/findAllUser"
+[GIN] 2025/03/04 - 18:50:36 | 200 |     33.8864ms |       127.0.0.1 | POST     "/task/root/addTask"
+[GIN] 2025/03/04 - 18:50:39 | 200 |      7.9782ms |       127.0.0.1 | GET      "/task/root/findAllTask"
+[GIN] 2025/03/04 - 18:50:39 | 200 |      8.5331ms |       127.0.0.1 | GET      "/task/root/findTaskCategory"
+[GIN] 2025/03/04 - 18:50:57 | 200 |      7.7719ms |       127.0.0.1 | GET      "/task/auth/getCurrentTask"
+[GIN] 2025/03/04 - 18:51:12 | 200 |      5.6291ms |       127.0.0.1 | GET      "/task/root/findTaskCategory"
+[GIN] 2025/03/04 - 18:51:12 | 200 |      5.3699ms |       127.0.0.1 | GET      "/user/root/findAllUser"
+[GIN] 2025/03/04 - 18:51:14 | 200 |      5.5292ms |       127.0.0.1 | GET      "/task/auth/getCurrentTask"
+[GIN] 2025/03/04 - 18:51:15 | 200 |      2.9553ms |       127.0.0.1 | GET      "/task/root/findTaskCategory"
+[GIN] 2025/03/04 - 18:51:15 | 200 |      2.6544ms |       127.0.0.1 | GET      "/user/root/findAllUser"
+[GIN] 2025/03/04 - 18:51:21 | 200 |     19.6736ms |       127.0.0.1 | POST     "/task/root/addTask"
+[GIN] 2025/03/04 - 18:51:23 | 200 |      8.4151ms |       127.0.0.1 | GET      "/task/auth/getCurrentTask"
+[GIN] 2025/03/04 - 18:51:30 | 200 |    489.6635ms |       127.0.0.1 | POST     "/user/login"
+[GIN] 2025/03/04 - 18:51:30 | 200 |      5.8895ms |       127.0.0.1 | GET      "/task/auth/getCurrentTask"
+[GIN] 2025/03/04 - 18:51:30 | 200 |      6.5195ms |       127.0.0.1 | GET      "/user/auth/getUserInfo"
+[GIN] 2025/03/04 - 18:51:31 | 200 |     495.304ms |       127.0.0.1 | GET      "/avatars/1740795337_QQ图片20250218185000.jpg"
+[GIN] 2025/03/04 - 18:51:37 | 200 |     18.1963ms |       127.0.0.1 | PUT      "/task/auth/putTaskStatus/214"
+[GIN] 2025/03/04 - 18:51:37 | 200 |       6.013ms |       127.0.0.1 | GET      "/task/auth/getCurrentTask"
+[GIN] 2025/03/04 - 18:51:40 | 200 |      6.7867ms |       127.0.0.1 | GET      "/task/auth/getUserAllTask"
+[GIN] 2025/03/04 - 18:51:47 | 200 |      9.0812ms |       127.0.0.1 | GET      "/task/auth/getCurrentTask"
+[GIN] 2025/03/04 - 18:52:27 | 200 |      9.4646ms |       127.0.0.1 | GET      "/task/auth/getUserAllTask"
+[GIN] 2025/03/04 - 18:52:28 | 200 |      6.1715ms |       127.0.0.1 | GET      "/task/auth/getCurrentTask"
+[GIN] 2025/03/04 - 18:52:34 | 200 |      6.1204ms |       127.0.0.1 | GET      "/task/auth/getUserAllTask"
+[GIN] 2025/03/04 - 18:52:35 | 200 |       6.096ms |       127.0.0.1 | GET      "/task/auth/getCurrentTask"
+[GIN] 2025/03/04 - 18:52:40 | 200 |      5.8483ms |       127.0.0.1 | GET      "/task/auth/getUserAllTask"
+[GIN] 2025/03/04 - 18:52:40 | 200 |      5.7287ms |       127.0.0.1 | GET      "/task/auth/getCurrentTask"

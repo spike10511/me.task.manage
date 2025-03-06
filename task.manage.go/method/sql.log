@@ -1,0 +1,363 @@
+
+2025/03/04 18:19:26 [32mF:/github/me.task.manage/task.manage.go/method/service/user/userService.go:32
+[0m[33m[20.342ms] [34;1m[rows:1][0m SELECT * FROM `sys_user` WHERE `sys_user`.`user_name` = 'root'
+
+2025/03/04 18:19:26 [32mF:/github/me.task.manage/task.manage.go/method/service/user/userService.go:32
+[0m[33m[1.833ms] [34;1m[rows:1][0m SELECT * FROM `sys_user` WHERE `sys_user`.`id` = 3
+
+2025/03/04 18:19:26 [32mF:/github/me.task.manage/task.manage.go/method/service/user/userService.go:32
+[0m[33m[3.827ms] [34;1m[rows:1][0m SELECT * FROM `sys_user` WHERE `sys_user`.`id` = 3
+
+2025/03/04 18:19:26 [32mF:/github/me.task.manage/task.manage.go/method/service/user/userService.go:209
+[0m[33m[4.159ms] [34;1m[rows:0][0m SELECT * FROM `sys_role_list` WHERE `sys_role_list`.`user_id` = 3
+
+2025/03/04 18:19:26 [32mF:/github/me.task.manage/task.manage.go/method/service/user/userService.go:209
+[0m[33m[5.769ms] [34;1m[rows:1][0m SELECT * FROM `sys_user` WHERE `sys_user`.`id` = 3 LIMIT 1
+
+2025/03/04 18:19:26 [32mF:/github/me.task.manage/task.manage.go/method/service/task/taskService.go:199
+[0m[33m[5.999ms] [34;1m[rows:1][0m SELECT * FROM `task_category` WHERE `task_category`.`id` = 48
+
+2025/03/04 18:19:26 [32mF:/github/me.task.manage/task.manage.go/method/service/task/taskService.go:199
+[0m[33m[9.529ms] [34;1m[rows:1][0m SELECT * FROM `task` WHERE `task`.`user_id` = 3 AND content LIKE '%%' AND (end_time >= '2025-03-04 00:00:00' AND start_time<= '2025-03-04 23:59:59')
+
+2025/03/04 18:19:32 [32mF:/github/me.task.manage/task.manage.go/method/service/user/userService.go:32
+[0m[33m[1.001ms] [34;1m[rows:1][0m SELECT * FROM `sys_user` WHERE `sys_user`.`id` = 3
+
+2025/03/04 18:19:32 [32mF:/github/me.task.manage/task.manage.go/method/service/task/taskService.go:212
+[0m[33m[0.574ms] [34;1m[rows:1][0m SELECT * FROM `task` WHERE `task`.`id` = 212 AND `task`.`user_id` = 3 AND `task`.`id` = 212 LIMIT 1
+
+2025/03/04 18:19:32 [32mF:/github/me.task.manage/task.manage.go/method/service/task/taskService.go:221
+[0m[33m[8.065ms] [34;1m[rows:1][0m UPDATE `task` SET `is_com`=1 WHERE `task`.`id` = 212 AND `task`.`user_id` = 3 AND `id` = 212
+
+2025/03/04 18:19:32 [32mF:/github/me.task.manage/task.manage.go/method/service/user/userService.go:32
+[0m[33m[2.114ms] [34;1m[rows:1][0m SELECT * FROM `sys_user` WHERE `sys_user`.`id` = 3
+
+2025/03/04 18:19:32 [32mF:/github/me.task.manage/task.manage.go/method/service/task/taskService.go:199
+[0m[33m[1.097ms] [34;1m[rows:1][0m SELECT * FROM `task_category` WHERE `task_category`.`id` = 48
+
+2025/03/04 18:19:32 [32mF:/github/me.task.manage/task.manage.go/method/service/task/taskService.go:199
+[0m[33m[2.200ms] [34;1m[rows:1][0m SELECT * FROM `task` WHERE `task`.`user_id` = 3 AND content LIKE '%%' AND (end_time >= '2025-03-04 00:00:00' AND start_time<= '2025-03-04 23:59:59')
+
+2025/03/04 18:19:37 [32mF:/github/me.task.manage/task.manage.go/method/service/user/userService.go:32
+[0m[33m[0.916ms] [34;1m[rows:1][0m SELECT * FROM `sys_user` WHERE `sys_user`.`id` = 3
+
+2025/03/04 18:19:37 [32mF:/github/me.task.manage/task.manage.go/method/service/task/taskService.go:212
+[0m[33m[0.771ms] [34;1m[rows:1][0m SELECT * FROM `task` WHERE `task`.`id` = 212 AND `task`.`user_id` = 3 AND `task`.`id` = 212 LIMIT 1
+
+2025/03/04 18:19:37 [32mF:/github/me.task.manage/task.manage.go/method/service/task/taskService.go:221
+[0m[33m[5.282ms] [34;1m[rows:1][0m UPDATE `task` SET `is_com`=0 WHERE `task`.`id` = 212 AND `task`.`user_id` = 3 AND `id` = 212
+
+2025/03/04 18:19:37 [32mF:/github/me.task.manage/task.manage.go/method/service/user/userService.go:32
+[0m[33m[1.079ms] [34;1m[rows:1][0m SELECT * FROM `sys_user` WHERE `sys_user`.`id` = 3
+
+2025/03/04 18:19:37 [32mF:/github/me.task.manage/task.manage.go/method/service/task/taskService.go:199
+[0m[33m[0.649ms] [34;1m[rows:1][0m SELECT * FROM `task_category` WHERE `task_category`.`id` = 48
+
+2025/03/04 18:19:37 [32mF:/github/me.task.manage/task.manage.go/method/service/task/taskService.go:199
+[0m[33m[1.483ms] [34;1m[rows:1][0m SELECT * FROM `task` WHERE `task`.`user_id` = 3 AND content LIKE '%%' AND (end_time >= '2025-03-04 00:00:00' AND start_time<= '2025-03-04 23:59:59')
+
+2025/03/04 18:47:37 [32mF:/github/me.task.manage/task.manage.go/method/service/user/userService.go:32
+[0m[33m[4.472ms] [34;1m[rows:1][0m SELECT * FROM `sys_user` WHERE `sys_user`.`id` = 3
+
+2025/03/04 18:47:37 [32mF:/github/me.task.manage/task.manage.go/method/service/user/userService.go:32
+[0m[33m[4.607ms] [34;1m[rows:1][0m SELECT * FROM `sys_user` WHERE `sys_user`.`id` = 3
+
+2025/03/04 18:47:37 [32mF:/github/me.task.manage/task.manage.go/method/service/user/userService.go:138
+[0m[33m[0.520ms] [34;1m[rows:2][0m SELECT * FROM `sys_user`
+
+2025/03/04 18:47:37 [32mF:/github/me.task.manage/task.manage.go/method/service/task/taskService.go:67
+[0m[33m[1.233ms] [34;1m[rows:10][0m SELECT * FROM `task_category`
+
+2025/03/04 18:47:40 [32mF:/github/me.task.manage/task.manage.go/method/service/user/userService.go:32
+[0m[33m[1.704ms] [34;1m[rows:1][0m SELECT * FROM `sys_user` WHERE `sys_user`.`id` = 3
+
+2025/03/04 18:47:40 [32mF:/github/me.task.manage/task.manage.go/method/service/task/taskService.go:199
+[0m[33m[1.542ms] [34;1m[rows:1][0m SELECT * FROM `task_category` WHERE `task_category`.`id` = 48
+
+2025/03/04 18:47:40 [32mF:/github/me.task.manage/task.manage.go/method/service/task/taskService.go:199
+[0m[33m[3.290ms] [34;1m[rows:1][0m SELECT * FROM `task` WHERE `task`.`user_id` = 3 AND content LIKE '%%' AND (end_time >= '2025-03-04 00:00:00' AND start_time<= '2025-03-04 23:59:59')
+
+2025/03/04 18:48:40 [32mF:/github/me.task.manage/task.manage.go/method/service/user/userService.go:32
+[0m[33m[3.774ms] [34;1m[rows:1][0m SELECT * FROM `sys_user` WHERE `sys_user`.`id` = 3
+
+2025/03/04 18:48:40 [32mF:/github/me.task.manage/task.manage.go/method/service/task/taskService.go:231
+[0m[33m[2.173ms] [34;1m[rows:2][0m SELECT * FROM `task_category` WHERE `task_category`.`id` IN (51,48)
+
+2025/03/04 18:48:40 [32mF:/github/me.task.manage/task.manage.go/method/service/task/taskService.go:231
+[0m[33m[1.274ms] [34;1m[rows:1][0m SELECT * FROM `sys_user` WHERE `sys_user`.`id` = 3
+
+2025/03/04 18:48:40 [32mF:/github/me.task.manage/task.manage.go/method/service/task/taskService.go:231
+[0m[33m[4.784ms] [34;1m[rows:3][0m SELECT * FROM `task` WHERE `task`.`user_id` = 3 ORDER BY end_time ASC
+
+2025/03/04 18:49:44 [32mF:/github/me.task.manage/task.manage.go/method/service/user/userService.go:32
+[0m[33m[4.755ms] [34;1m[rows:1][0m SELECT * FROM `sys_user` WHERE `sys_user`.`user_name` = 'root'
+
+2025/03/04 18:49:45 [32mF:/github/me.task.manage/task.manage.go/method/service/user/userService.go:32
+[0m[33m[1.428ms] [34;1m[rows:1][0m SELECT * FROM `sys_user` WHERE `sys_user`.`id` = 3
+
+2025/03/04 18:49:45 [32mF:/github/me.task.manage/task.manage.go/method/service/user/userService.go:32
+[0m[33m[1.141ms] [34;1m[rows:1][0m SELECT * FROM `sys_user` WHERE `sys_user`.`id` = 3
+
+2025/03/04 18:49:45 [32mF:/github/me.task.manage/task.manage.go/method/service/user/userService.go:209
+[0m[33m[0.997ms] [34;1m[rows:0][0m SELECT * FROM `sys_role_list` WHERE `sys_role_list`.`user_id` = 3
+
+2025/03/04 18:49:45 [32mF:/github/me.task.manage/task.manage.go/method/service/user/userService.go:209
+[0m[33m[2.319ms] [34;1m[rows:1][0m SELECT * FROM `sys_user` WHERE `sys_user`.`id` = 3 LIMIT 1
+
+2025/03/04 18:49:45 [32mF:/github/me.task.manage/task.manage.go/method/service/task/taskService.go:199
+[0m[33m[1.443ms] [34;1m[rows:1][0m SELECT * FROM `task_category` WHERE `task_category`.`id` = 48
+
+2025/03/04 18:49:45 [32mF:/github/me.task.manage/task.manage.go/method/service/task/taskService.go:199
+[0m[33m[5.648ms] [34;1m[rows:1][0m SELECT * FROM `task` WHERE `task`.`user_id` = 3 AND content LIKE '%%' AND (end_time >= '2025-03-04 00:00:00' AND start_time<= '2025-03-04 23:59:59')
+
+2025/03/04 18:50:04 [32mF:/github/me.task.manage/task.manage.go/method/service/user/userService.go:32
+[0m[33m[1.941ms] [34;1m[rows:1][0m SELECT * FROM `sys_user` WHERE `sys_user`.`user_name` = 'root'
+
+2025/03/04 18:50:05 [32mF:/github/me.task.manage/task.manage.go/method/service/user/userService.go:32
+[0m[33m[1.333ms] [34;1m[rows:1][0m SELECT * FROM `sys_user` WHERE `sys_user`.`id` = 3
+
+2025/03/04 18:50:05 [32mF:/github/me.task.manage/task.manage.go/method/service/user/userService.go:32
+[0m[33m[1.691ms] [34;1m[rows:1][0m SELECT * FROM `sys_user` WHERE `sys_user`.`id` = 3
+
+2025/03/04 18:50:05 [32mF:/github/me.task.manage/task.manage.go/method/service/task/taskService.go:199
+[0m[33m[1.438ms] [34;1m[rows:1][0m SELECT * FROM `task_category` WHERE `task_category`.`id` = 48
+
+2025/03/04 18:50:05 [32mF:/github/me.task.manage/task.manage.go/method/service/task/taskService.go:199
+[0m[33m[3.331ms] [34;1m[rows:1][0m SELECT * FROM `task` WHERE `task`.`user_id` = 3 AND content LIKE '%%' AND (end_time >= '2025-03-04 00:00:00' AND start_time<= '2025-03-04 23:59:59')
+
+2025/03/04 18:50:05 [32mF:/github/me.task.manage/task.manage.go/method/service/user/userService.go:209
+[0m[33m[1.495ms] [34;1m[rows:0][0m SELECT * FROM `sys_role_list` WHERE `sys_role_list`.`user_id` = 3
+
+2025/03/04 18:50:05 [32mF:/github/me.task.manage/task.manage.go/method/service/user/userService.go:209
+[0m[33m[2.851ms] [34;1m[rows:1][0m SELECT * FROM `sys_user` WHERE `sys_user`.`id` = 3 LIMIT 1
+
+2025/03/04 18:50:07 [32mF:/github/me.task.manage/task.manage.go/method/service/user/userService.go:32
+[0m[33m[1.375ms] [34;1m[rows:1][0m SELECT * FROM `sys_user` WHERE `sys_user`.`id` = 3
+
+2025/03/04 18:50:07 [32mF:/github/me.task.manage/task.manage.go/method/service/task/taskService.go:67
+[0m[33m[0.589ms] [34;1m[rows:10][0m SELECT * FROM `task_category`
+
+2025/03/04 18:50:07 [32mF:/github/me.task.manage/task.manage.go/method/service/user/userService.go:32
+[0m[33m[1.100ms] [34;1m[rows:1][0m SELECT * FROM `sys_user` WHERE `sys_user`.`id` = 3
+
+2025/03/04 18:50:07 [32mF:/github/me.task.manage/task.manage.go/method/service/user/userService.go:138
+[0m[33m[0.608ms] [34;1m[rows:2][0m SELECT * FROM `sys_user`
+
+2025/03/04 18:50:36 [32mF:/github/me.task.manage/task.manage.go/method/service/user/userService.go:32
+[0m[33m[4.408ms] [34;1m[rows:1][0m SELECT * FROM `sys_user` WHERE `sys_user`.`id` = 3
+
+2025/03/04 18:50:36 [32mF:/github/me.task.manage/task.manage.go/method/service/task/taskService.go:86
+[0m[33m[1.639ms] [34;1m[rows:1][0m SELECT * FROM `sys_user` WHERE `sys_user`.`id` = 3 LIMIT 1
+
+2025/03/04 18:50:36 [32mF:/github/me.task.manage/task.manage.go/method/service/task/taskService.go:91
+[0m[33m[1.874ms] [34;1m[rows:1][0m SELECT * FROM `task_category` WHERE `task_category`.`id` = 47 LIMIT 1
+
+2025/03/04 18:50:36 [32mF:/github/me.task.manage/task.manage.go/method/service/task/taskService.go:95
+[0m[33m[16.495ms] [34;1m[rows:1][0m INSERT INTO `task` (`user_id`,`task_category_id`,`is_com`,`content`,`start_time`,`end_time`) VALUES (3,47,0,'浇花','2025-03-04 18:47:36','2025-03-04 18:47:36')
+
+2025/03/04 18:50:39 [32mF:/github/me.task.manage/task.manage.go/method/service/user/userService.go:32
+[0m[33m[1.843ms] [34;1m[rows:1][0m SELECT * FROM `sys_user` WHERE `sys_user`.`id` = 3
+
+2025/03/04 18:50:39 [32mF:/github/me.task.manage/task.manage.go/method/service/task/taskService.go:241
+[0m[33m[1.184ms] [34;1m[rows:4][0m SELECT * FROM `task_category` WHERE `task_category`.`id` IN (51,46,47,48)
+
+2025/03/04 18:50:39 [32mF:/github/me.task.manage/task.manage.go/method/service/task/taskService.go:241
+[0m[33m[1.219ms] [34;1m[rows:2][0m SELECT * FROM `sys_user` WHERE `sys_user`.`id` IN (3,14)
+
+2025/03/04 18:50:39 [32mF:/github/me.task.manage/task.manage.go/method/service/task/taskService.go:241
+[0m[33m[3.162ms] [34;1m[rows:5][0m SELECT * FROM `task` ORDER BY end_time ASC
+
+2025/03/04 18:50:39 [32mF:/github/me.task.manage/task.manage.go/method/service/user/userService.go:32
+[0m[33m[4.768ms] [34;1m[rows:1][0m SELECT * FROM `sys_user` WHERE `sys_user`.`id` = 3
+
+2025/03/04 18:50:39 [32mF:/github/me.task.manage/task.manage.go/method/service/task/taskService.go:67
+[0m[33m[0.555ms] [34;1m[rows:10][0m SELECT * FROM `task_category`
+
+2025/03/04 18:50:57 [32mF:/github/me.task.manage/task.manage.go/method/service/user/userService.go:32
+[0m[33m[1.961ms] [34;1m[rows:1][0m SELECT * FROM `sys_user` WHERE `sys_user`.`id` = 3
+
+2025/03/04 18:50:57 [32mF:/github/me.task.manage/task.manage.go/method/service/task/taskService.go:199
+[0m[33m[1.250ms] [34;1m[rows:2][0m SELECT * FROM `task_category` WHERE `task_category`.`id` IN (48,47)
+
+2025/03/04 18:50:57 [32mF:/github/me.task.manage/task.manage.go/method/service/task/taskService.go:199
+[0m[33m[3.368ms] [34;1m[rows:2][0m SELECT * FROM `task` WHERE `task`.`user_id` = 3 AND content LIKE '%%' AND (end_time >= '2025-03-04 00:00:00' AND start_time<= '2025-03-04 23:59:59')
+
+2025/03/04 18:51:12 [32mF:/github/me.task.manage/task.manage.go/method/service/user/userService.go:32
+[0m[33m[3.890ms] [34;1m[rows:1][0m SELECT * FROM `sys_user` WHERE `sys_user`.`id` = 3
+
+2025/03/04 18:51:12 [32mF:/github/me.task.manage/task.manage.go/method/service/task/taskService.go:67
+[0m[33m[0.861ms] [34;1m[rows:10][0m SELECT * FROM `task_category`
+
+2025/03/04 18:51:12 [32mF:/github/me.task.manage/task.manage.go/method/service/user/userService.go:32
+[0m[33m[2.932ms] [34;1m[rows:1][0m SELECT * FROM `sys_user` WHERE `sys_user`.`id` = 3
+
+2025/03/04 18:51:12 [32mF:/github/me.task.manage/task.manage.go/method/service/user/userService.go:138
+[0m[33m[0.558ms] [34;1m[rows:2][0m SELECT * FROM `sys_user`
+
+2025/03/04 18:51:14 [32mF:/github/me.task.manage/task.manage.go/method/service/user/userService.go:32
+[0m[33m[1.495ms] [34;1m[rows:1][0m SELECT * FROM `sys_user` WHERE `sys_user`.`id` = 3
+
+2025/03/04 18:51:14 [32mF:/github/me.task.manage/task.manage.go/method/service/task/taskService.go:199
+[0m[33m[1.220ms] [34;1m[rows:2][0m SELECT * FROM `task_category` WHERE `task_category`.`id` IN (48,47)
+
+2025/03/04 18:51:14 [32mF:/github/me.task.manage/task.manage.go/method/service/task/taskService.go:199
+[0m[33m[2.949ms] [34;1m[rows:2][0m SELECT * FROM `task` WHERE `task`.`user_id` = 3 AND content LIKE '%%' AND (end_time >= '2025-03-04 00:00:00' AND start_time<= '2025-03-04 23:59:59')
+
+2025/03/04 18:51:15 [32mF:/github/me.task.manage/task.manage.go/method/service/user/userService.go:32
+[0m[33m[1.340ms] [34;1m[rows:1][0m SELECT * FROM `sys_user` WHERE `sys_user`.`id` = 3
+
+2025/03/04 18:51:15 [32mF:/github/me.task.manage/task.manage.go/method/service/task/taskService.go:67
+[0m[33m[0.552ms] [34;1m[rows:10][0m SELECT * FROM `task_category`
+
+2025/03/04 18:51:15 [32mF:/github/me.task.manage/task.manage.go/method/service/user/userService.go:32
+[0m[33m[1.175ms] [34;1m[rows:1][0m SELECT * FROM `sys_user` WHERE `sys_user`.`id` = 3
+
+2025/03/04 18:51:15 [32mF:/github/me.task.manage/task.manage.go/method/service/user/userService.go:138
+[0m[33m[0.514ms] [34;1m[rows:2][0m SELECT * FROM `sys_user`
+
+2025/03/04 18:51:21 [32mF:/github/me.task.manage/task.manage.go/method/service/user/userService.go:32
+[0m[33m[1.735ms] [34;1m[rows:1][0m SELECT * FROM `sys_user` WHERE `sys_user`.`id` = 3
+
+2025/03/04 18:51:21 [32mF:/github/me.task.manage/task.manage.go/method/service/task/taskService.go:86
+[0m[33m[0.509ms] [34;1m[rows:1][0m SELECT * FROM `sys_user` WHERE `sys_user`.`id` = 14 LIMIT 1
+
+2025/03/04 18:51:21 [32mF:/github/me.task.manage/task.manage.go/method/service/task/taskService.go:91
+[0m[33m[0.909ms] [34;1m[rows:1][0m SELECT * FROM `task_category` WHERE `task_category`.`id` = 47 LIMIT 1
+
+2025/03/04 18:51:21 [32mF:/github/me.task.manage/task.manage.go/method/service/task/taskService.go:95
+[0m[33m[14.028ms] [34;1m[rows:1][0m INSERT INTO `task` (`user_id`,`task_category_id`,`is_com`,`content`,`start_time`,`end_time`) VALUES (14,47,0,'浇花','2025-03-04 18:47:36','2025-03-04 18:47:36')
+
+2025/03/04 18:51:23 [32mF:/github/me.task.manage/task.manage.go/method/service/user/userService.go:32
+[0m[33m[1.558ms] [34;1m[rows:1][0m SELECT * FROM `sys_user` WHERE `sys_user`.`id` = 3
+
+2025/03/04 18:51:23 [32mF:/github/me.task.manage/task.manage.go/method/service/task/taskService.go:199
+[0m[33m[1.084ms] [34;1m[rows:2][0m SELECT * FROM `task_category` WHERE `task_category`.`id` IN (48,47)
+
+2025/03/04 18:51:23 [32mF:/github/me.task.manage/task.manage.go/method/service/task/taskService.go:199
+[0m[33m[3.534ms] [34;1m[rows:2][0m SELECT * FROM `task` WHERE `task`.`user_id` = 3 AND content LIKE '%%' AND (end_time >= '2025-03-04 00:00:00' AND start_time<= '2025-03-04 23:59:59')
+
+2025/03/04 18:51:29 [32mF:/github/me.task.manage/task.manage.go/method/service/user/userService.go:32
+[0m[33m[1.446ms] [34;1m[rows:1][0m SELECT * FROM `sys_user` WHERE `sys_user`.`user_name` = 'youke'
+
+2025/03/04 18:51:30 [32mF:/github/me.task.manage/task.manage.go/method/service/user/userService.go:32
+[0m[33m[1.395ms] [34;1m[rows:1][0m SELECT * FROM `sys_user` WHERE `sys_user`.`id` = 14
+
+2025/03/04 18:51:30 [32mF:/github/me.task.manage/task.manage.go/method/service/user/userService.go:32
+[0m[33m[1.147ms] [34;1m[rows:1][0m SELECT * FROM `sys_user` WHERE `sys_user`.`id` = 14
+
+2025/03/04 18:51:30 [32mF:/github/me.task.manage/task.manage.go/method/service/user/userService.go:209
+[0m[33m[1.407ms] [34;1m[rows:0][0m SELECT * FROM `sys_role_list` WHERE `sys_role_list`.`user_id` = 14
+
+2025/03/04 18:51:30 [32mF:/github/me.task.manage/task.manage.go/method/service/user/userService.go:209
+[0m[33m[2.557ms] [34;1m[rows:1][0m SELECT * FROM `sys_user` WHERE `sys_user`.`id` = 14 LIMIT 1
+
+2025/03/04 18:51:30 [32mF:/github/me.task.manage/task.manage.go/method/service/task/taskService.go:199
+[0m[33m[1.358ms] [34;1m[rows:1][0m SELECT * FROM `task_category` WHERE `task_category`.`id` = 47
+
+2025/03/04 18:51:30 [32mF:/github/me.task.manage/task.manage.go/method/service/task/taskService.go:199
+[0m[33m[2.765ms] [34;1m[rows:1][0m SELECT * FROM `task` WHERE `task`.`user_id` = 14 AND content LIKE '%%' AND (end_time >= '2025-03-04 00:00:00' AND start_time<= '2025-03-04 23:59:59')
+
+2025/03/04 18:51:30 [31;1mF:/github/me.task.manage/task.manage.go/method/service/user/userService.go:227 [35;1mrecord not found
+[0m[33m[1.923ms] [34;1m[rows:0][0m SELECT * FROM `sys_role_list` WHERE `sys_role_list`.`role_id` = 2 AND `sys_role_list`.`user_id` = 14 LIMIT 1
+
+2025/03/04 18:51:37 [32mF:/github/me.task.manage/task.manage.go/method/service/user/userService.go:32
+[0m[33m[1.263ms] [34;1m[rows:1][0m SELECT * FROM `sys_user` WHERE `sys_user`.`id` = 14
+
+2025/03/04 18:51:37 [32mF:/github/me.task.manage/task.manage.go/method/service/task/taskService.go:212
+[0m[33m[1.523ms] [34;1m[rows:1][0m SELECT * FROM `task` WHERE `task`.`id` = 214 AND `task`.`user_id` = 14 AND `task`.`id` = 214 LIMIT 1
+
+2025/03/04 18:51:37 [32mF:/github/me.task.manage/task.manage.go/method/service/task/taskService.go:221
+[0m[33m[13.064ms] [34;1m[rows:1][0m UPDATE `task` SET `is_com`=1 WHERE `task`.`id` = 214 AND `task`.`user_id` = 14 AND `id` = 214
+
+2025/03/04 18:51:37 [32mF:/github/me.task.manage/task.manage.go/method/service/user/userService.go:32
+[0m[33m[1.819ms] [34;1m[rows:1][0m SELECT * FROM `sys_user` WHERE `sys_user`.`id` = 14
+
+2025/03/04 18:51:37 [32mF:/github/me.task.manage/task.manage.go/method/service/task/taskService.go:199
+[0m[33m[1.216ms] [34;1m[rows:1][0m SELECT * FROM `task_category` WHERE `task_category`.`id` = 47
+
+2025/03/04 18:51:37 [32mF:/github/me.task.manage/task.manage.go/method/service/task/taskService.go:199
+[0m[33m[2.890ms] [34;1m[rows:1][0m SELECT * FROM `task` WHERE `task`.`user_id` = 14 AND content LIKE '%%' AND (end_time >= '2025-03-04 00:00:00' AND start_time<= '2025-03-04 23:59:59')
+
+2025/03/04 18:51:40 [32mF:/github/me.task.manage/task.manage.go/method/service/user/userService.go:32
+[0m[33m[1.527ms] [34;1m[rows:1][0m SELECT * FROM `sys_user` WHERE `sys_user`.`id` = 14
+
+2025/03/04 18:51:40 [32mF:/github/me.task.manage/task.manage.go/method/service/task/taskService.go:231
+[0m[33m[1.297ms] [34;1m[rows:2][0m SELECT * FROM `task_category` WHERE `task_category`.`id` IN (46,47)
+
+2025/03/04 18:51:40 [32mF:/github/me.task.manage/task.manage.go/method/service/task/taskService.go:231
+[0m[33m[1.344ms] [34;1m[rows:1][0m SELECT * FROM `sys_user` WHERE `sys_user`.`id` = 14
+
+2025/03/04 18:51:40 [32mF:/github/me.task.manage/task.manage.go/method/service/task/taskService.go:231
+[0m[33m[4.132ms] [34;1m[rows:2][0m SELECT * FROM `task` WHERE `task`.`user_id` = 14 ORDER BY end_time ASC
+
+2025/03/04 18:51:47 [32mF:/github/me.task.manage/task.manage.go/method/service/user/userService.go:32
+[0m[33m[3.837ms] [34;1m[rows:1][0m SELECT * FROM `sys_user` WHERE `sys_user`.`id` = 14
+
+2025/03/04 18:51:47 [32mF:/github/me.task.manage/task.manage.go/method/service/task/taskService.go:199
+[0m[33m[1.446ms] [34;1m[rows:1][0m SELECT * FROM `task_category` WHERE `task_category`.`id` = 47
+
+2025/03/04 18:51:47 [32mF:/github/me.task.manage/task.manage.go/method/service/task/taskService.go:199
+[0m[33m[3.381ms] [34;1m[rows:1][0m SELECT * FROM `task` WHERE `task`.`user_id` = 14 AND content LIKE '%%' AND (end_time >= '2025-03-04 00:00:00' AND start_time<= '2025-03-04 23:59:59')
+
+2025/03/04 18:52:27 [32mF:/github/me.task.manage/task.manage.go/method/service/user/userService.go:32
+[0m[33m[3.393ms] [34;1m[rows:1][0m SELECT * FROM `sys_user` WHERE `sys_user`.`id` = 14
+
+2025/03/04 18:52:27 [32mF:/github/me.task.manage/task.manage.go/method/service/task/taskService.go:231
+[0m[33m[1.421ms] [34;1m[rows:2][0m SELECT * FROM `task_category` WHERE `task_category`.`id` IN (46,47)
+
+2025/03/04 18:52:27 [32mF:/github/me.task.manage/task.manage.go/method/service/task/taskService.go:231
+[0m[33m[1.106ms] [34;1m[rows:1][0m SELECT * FROM `sys_user` WHERE `sys_user`.`id` = 14
+
+2025/03/04 18:52:27 [32mF:/github/me.task.manage/task.manage.go/method/service/task/taskService.go:231
+[0m[33m[4.977ms] [34;1m[rows:2][0m SELECT * FROM `task` WHERE `task`.`user_id` = 14 ORDER BY end_time ASC
+
+2025/03/04 18:52:28 [32mF:/github/me.task.manage/task.manage.go/method/service/user/userService.go:32
+[0m[33m[1.630ms] [34;1m[rows:1][0m SELECT * FROM `sys_user` WHERE `sys_user`.`id` = 14
+
+2025/03/04 18:52:28 [32mF:/github/me.task.manage/task.manage.go/method/service/task/taskService.go:199
+[0m[33m[1.187ms] [34;1m[rows:1][0m SELECT * FROM `task_category` WHERE `task_category`.`id` = 47
+
+2025/03/04 18:52:28 [32mF:/github/me.task.manage/task.manage.go/method/service/task/taskService.go:199
+[0m[33m[2.833ms] [34;1m[rows:1][0m SELECT * FROM `task` WHERE `task`.`user_id` = 14 AND content LIKE '%%' AND (end_time >= '2025-03-04 00:00:00' AND start_time<= '2025-03-04 23:59:59')
+
+2025/03/04 18:52:34 [32mF:/github/me.task.manage/task.manage.go/method/service/user/userService.go:32
+[0m[33m[1.273ms] [34;1m[rows:1][0m SELECT * FROM `sys_user` WHERE `sys_user`.`id` = 14
+
+2025/03/04 18:52:34 [32mF:/github/me.task.manage/task.manage.go/method/service/task/taskService.go:231
+[0m[33m[1.058ms] [34;1m[rows:2][0m SELECT * FROM `task_category` WHERE `task_category`.`id` IN (46,47)
+
+2025/03/04 18:52:34 [32mF:/github/me.task.manage/task.manage.go/method/service/task/taskService.go:231
+[0m[33m[1.263ms] [34;1m[rows:1][0m SELECT * FROM `sys_user` WHERE `sys_user`.`id` = 14
+
+2025/03/04 18:52:34 [32mF:/github/me.task.manage/task.manage.go/method/service/task/taskService.go:231
+[0m[33m[3.707ms] [34;1m[rows:2][0m SELECT * FROM `task` WHERE `task`.`user_id` = 14 ORDER BY end_time ASC
+
+2025/03/04 18:52:35 [32mF:/github/me.task.manage/task.manage.go/method/service/user/userService.go:32
+[0m[33m[1.351ms] [34;1m[rows:1][0m SELECT * FROM `sys_user` WHERE `sys_user`.`id` = 14
+
+2025/03/04 18:52:35 [32mF:/github/me.task.manage/task.manage.go/method/service/task/taskService.go:199
+[0m[33m[1.140ms] [34;1m[rows:1][0m SELECT * FROM `task_category` WHERE `task_category`.`id` = 47
+
+2025/03/04 18:52:35 [32mF:/github/me.task.manage/task.manage.go/method/service/task/taskService.go:199
+[0m[33m[2.572ms] [34;1m[rows:1][0m SELECT * FROM `task` WHERE `task`.`user_id` = 14 AND content LIKE '%%' AND (end_time >= '2025-03-04 00:00:00' AND start_time<= '2025-03-04 23:59:59')
+
+2025/03/04 18:52:40 [32mF:/github/me.task.manage/task.manage.go/method/service/user/userService.go:32
+[0m[33m[1.246ms] [34;1m[rows:1][0m SELECT * FROM `sys_user` WHERE `sys_user`.`id` = 14
+
+2025/03/04 18:52:40 [32mF:/github/me.task.manage/task.manage.go/method/service/task/taskService.go:231
+[0m[33m[0.651ms] [34;1m[rows:2][0m SELECT * FROM `task_category` WHERE `task_category`.`id` IN (46,47)
+
+2025/03/04 18:52:40 [32mF:/github/me.task.manage/task.manage.go/method/service/task/taskService.go:231
+[0m[33m[0.852ms] [34;1m[rows:1][0m SELECT * FROM `sys_user` WHERE `sys_user`.`id` = 14
+
+2025/03/04 18:52:40 [32mF:/github/me.task.manage/task.manage.go/method/service/task/taskService.go:231
+[0m[33m[3.998ms] [34;1m[rows:2][0m SELECT * FROM `task` WHERE `task`.`user_id` = 14 ORDER BY end_time ASC
+
+2025/03/04 18:52:40 [32mF:/github/me.task.manage/task.manage.go/method/service/user/userService.go:32
+[0m[33m[1.442ms] [34;1m[rows:1][0m SELECT * FROM `sys_user` WHERE `sys_user`.`id` = 14
+
+2025/03/04 18:52:40 [32mF:/github/me.task.manage/task.manage.go/method/service/task/taskService.go:199
+[0m[33m[1.157ms] [34;1m[rows:1][0m SELECT * FROM `task_category` WHERE `task_category`.`id` = 47
+
+2025/03/04 18:52:40 [32mF:/github/me.task.manage/task.manage.go/method/service/task/taskService.go:199
+[0m[33m[2.620ms] [34;1m[rows:1][0m SELECT * FROM `task` WHERE `task`.`user_id` = 14 AND content LIKE '%%' AND (end_time >= '2025-03-04 00:00:00' AND start_time<= '2025-03-04 23:59:59')
